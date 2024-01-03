@@ -1,0 +1,22 @@
+{
+  "name": "jsonrpc-wss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/minimist": "^1.2.5",
+    "chalk": "^4.1.2",
+    "ip": "^1.1.8",
+    "json-rpc-protocol": "^0.13.2",
+    "minimist": "^1.2.8",
+    "ws": "^8.15.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  }
+}

@@ -33,7 +33,6 @@ const askQuestion = async function () {
         case 'notice':
           jsonRpcNotice(ws, method, params);
           break;
-          break;
         default:
           throw new Error(`unknown command ${command}`);
       }
